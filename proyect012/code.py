@@ -1,5 +1,12 @@
 import numpy as np
 from sklearn.model_selection import train_test_split
+import pandas as pd
+
+# Load dataset
+cc_apps = pd.read_csv("datasets/cc_approvals.data", header=None)
+
+# Inspect data
+cc_apps.head()
 
 
 # Print summary statistics
